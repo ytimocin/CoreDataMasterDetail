@@ -10,8 +10,8 @@ The goal of this exercise is to persist these Event objects into Core Data. All 
 
 You can persist the Events in 5 steps:
 
-Create a convenience property named sharedContext
-Add a method named fetchAllEvents()
-Invoke fetchAllEvents in viewDidLoad()
-Insert a new Event object when the + button is tapped.
-Save the context after each new Event has been inserted
+1. Create a convenience property named sharedContext
+2. Add a method named fetchAllEvents()
+3. Invoke fetchAllEvents in viewDidLoad()
+4. Insert a new Event object when the + button is tapped.
+5. Save the context after each new Event has been inserted
